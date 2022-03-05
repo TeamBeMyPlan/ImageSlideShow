@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.screenshots  = "https://raw.githubusercontent.com/dimix/ImageSlideShow/master/demo.gif"
   s.license      = "MIT"
   s.author       = { "Dimitri Giani" => "dimitri.giani@gmail.com" }
-  s.platform     = :ios, "9.0"
-  s.ios.deployment_target = "9.3"
+  s.platform     = :ios, "14.0"
+  s.ios.deployment_target = "14.0"
   s.source       = { :git => "https://github.com/dimix/ImageSlideShow.git", :tag => "#{s.version}" }
   s.source_files = "Classes", "Sources/ImageSlideShow/**/**/*.{swift}"
   s.resources    = "Sources/ImageSlideShow/Storyboard/*.{png,jpeg,jpg,storyboard,xib}"
