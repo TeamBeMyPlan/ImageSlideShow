@@ -93,7 +93,7 @@ extension ImageSlideViewController {
   
   private func showAlertWith(title: String?, message: String) {
     let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
-    ac.addAction(.init(title: "확인인", style: .default, handler: nil))
+    ac.addAction(.init(title: "확인", style: .default, handler: nil))
     self.present(ac, animated: true)
   }
 }
